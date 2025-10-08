@@ -120,9 +120,9 @@ def calculate_avalanche_effect(num_trials=100):
     
     alpha = 0.05
     if p_value < alpha:
-        print("✅ Result is differnt")
+        print("✅ Result is different")
     else:
-        print("❌ Result is not differnt")
+        print("❌ Result is not different")
 
 if __name__ == "__main__":
     encrypt()
